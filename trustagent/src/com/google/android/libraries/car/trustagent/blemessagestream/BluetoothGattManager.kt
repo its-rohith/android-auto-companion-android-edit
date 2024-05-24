@@ -822,7 +822,7 @@ open class BluetoothGattManager(
      * If a default MTU has not been configured by [setDefaultMtu], this is the default value. This
      * value is defined by the framework. See `system/bt/stack/include/gatt_api.h`.
      */
-    internal const val MAXIMUM_MTU = 517
+    internal const val MAXIMUM_MTU = 400
 
     internal const val SHARED_PREF = "com.google.android.libraries.car.trustagent.ConnectionManager"
     private const val KEY_DEFAULT_MTU = "default_mtu"
